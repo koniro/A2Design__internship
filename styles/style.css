@@ -755,3 +755,17 @@ h1 {
 .home__right--area {
     max-width: 658.26px;
 }
+
+.right--area--el-1 {
+    max-width: 576.1px;
+    max-height: 418.78px;
+    opacity: 1;
+
+    background: #FB9300;
+    filter: blur(800px);
+}
+
+.right--area--el-2 {
+
+}
+
