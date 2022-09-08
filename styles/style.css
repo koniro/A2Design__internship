@@ -372,6 +372,7 @@ main {
 }
 
 header {
+    z-index: 5;
     /* position: fixed; */
 }
 
@@ -572,6 +573,7 @@ header {
 .home__left--textarea {
     max-width: 590px;
     max-height: 865px;
+    z-index: 5;
 }
 
 .quality {
@@ -757,15 +759,88 @@ h1 {
 }
 
 .right--area--el-1 {
-    max-width: 576.1px;
-    max-height: 418.78px;
-    opacity: 1;
-
+    position: absolute;
+    width: 576.1px;
+    height: 418.78px;
+    left: 965px;
+    top: -99px;
+    z-index: 1;
     background: #FB9300;
     filter: blur(800px);
 }
 
 .right--area--el-2 {
-
+    position: absolute;
+    width: 428px;
+    height: 311px;
+    left: 1160px;
+    top: 424px;
+    
+    background: #FCDDDD;
+    /* Layer Blur */
+    z-index: 1;
+    filter: blur(500px);
 }
 
+.right--area--bbls-1 {
+    position: absolute;
+    left: 56.17%;
+    right: 28.13%;
+    top: 35%;
+    bottom: 90.12%;
+    /* z-index: 2; */
+    /* transform: matrix(0.84, 0.45, -0.61, 0.87, 0, 0);*/
+}
+
+.right--area--bbls-2 {
+    position: absolute;
+    left: 85.8%;
+    right: 3.81%;
+    top: 41.7%;
+    bottom: 88.76%;
+}
+
+.right--area--wave {
+    position: absolute;
+    width: 718px;
+    height: 312.78px;
+    left: 68.41%;
+    /* top: 536.89px; */
+    /* z-index: 3; */
+    transform: rotate(-63.92deg);
+}
+
+.right--area--heart {
+    position: absolute;
+    width: 72.44px;
+    height: 71.92px;
+    left: 91.04%;
+    top: 19.71%;
+
+    transform: rotate(30.14deg);
+}
+
+.right--area--girl {
+    position: absolute;
+    width: 658.26px;
+    height: 747.23px;
+    left: 51.45%;
+    top: 17.11%;
+    z-index: 3;
+}
+
+.right--area--smile {
+    position: absolute;
+    /* width: 288px; */
+    /* height: 70px; */
+    left: 50%;
+    top: 82.67%;
+    z-index: 3;
+}
+
+.right--area--graphics {
+    position: absolute;
+    z-index: 3;
+    left: 81.67%;
+    top: 79%;
+}
