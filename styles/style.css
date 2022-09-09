@@ -360,8 +360,8 @@
 
 
 main {
-    /* max-width: 1440px;
-    margin: 0 auto; */
+max-width: 1440px;
+    /*margin: 0 auto; */
     background-color: #ffffff;
 }
 
@@ -833,8 +833,8 @@ h1 {
     position: absolute;
     /* width: 288px; */
     /* height: 70px; */
-    left: 50%;
-    top: 82.67%;
+    left: 49%;
+    top: 80.67%;
     z-index: 3;
 }
 
@@ -843,4 +843,130 @@ h1 {
     z-index: 3;
     left: 81.67%;
     top: 79%;
+}
+
+.reasons {
+
+}
+
+.reasons__content {
+
+}
+
+.reasons__title {
+
+    width: 586px;
+    height: 134px;
+
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+    /* or 67px */
+    
+    letter-spacing: -0.02em;
+    
+    color: #585858;
+}
+
+.reasons__parag {
+    width: 450px;
+    height: 108px;
+
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    /* or 36px */
+    
+    letter-spacing: -0.02em;
+    
+    color: #828282;
+}
+
+.reasons__card--area {
+
+}
+
+.reasons__card {
+    width: 370px;
+    height: 483px;
+
+    
+    /* #FFFFFF */
+    
+    background: #FFFFFF;
+    /* jez salad card */
+    border: 1px solid;
+    /* box-shadow: 0px 50px 80px -30px rgba(151, 109, 0, 0.2); */
+    border-radius: 50px;
+}
+
+.reasons__card--header {
+
+}
+
+
+.card__icon {
+    margin: 40px 0 0 40px;
+}
+
+
+.reasons__card--body {
+
+}
+
+.reasons__card--title {
+
+}
+
+.reasons__card--text {
+
+}
+
+.reason__card--btn {
+    width: 170px;
+    height: 49px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    /* identical to box height, or 29px */
+
+    letter-spacing: -0.02em;
+
+    /* #575757 */
+
+    color: #575757;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+
+    border: none;
+}
+
+.reason__card__arrow {
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: -4px;
 }
