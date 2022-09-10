@@ -853,6 +853,12 @@ h1 {
 
 }
 
+.reasons__text--area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .reasons__title {
 
     width: 586px;
@@ -889,7 +895,11 @@ h1 {
 }
 
 .reasons__card--area {
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
 }
 
 .reasons__card {
@@ -921,11 +931,40 @@ h1 {
 }
 
 .reasons__card--title {
+    width: 207px;
+    height: 43px;
 
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 180%;
+    /* or 43px */
+    
+    letter-spacing: -0.02em;
+    
+    /* #2B2B2B */
+    margin: 80px 0 0 40px;
+    color: #2B2B2B;
 }
 
 .reasons__card--text {
+    width: 267px;
+    height: 87px;
 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    /* or 29px */
+    
+    letter-spacing: -0.02em;
+    
+    /* #575757 */
+    margin: 12px 0 0 40px;
+    color: #575757;
 }
 
 .reason__card--btn {
@@ -942,9 +981,9 @@ h1 {
     letter-spacing: -0.02em;
 
     /* #575757 */
-
+    background: #ffffff;
     color: #575757;
-
+    border-radius: 100px;
 
     /* Inside auto layout */
 
@@ -960,6 +999,7 @@ h1 {
     gap: 10px;
 
     border: none;
+    margin: 24px 0 0 15px;
 }
 
 .reason__card__arrow {
