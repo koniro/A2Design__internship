@@ -550,12 +550,19 @@
     font-style: normal;
 }
 
-
+html {
+    overflow: hidden scroll;
+}
 
 main {
-max-width: 1440px;
-    /*margin: 0 auto; */
+/* max-width: 1440px; */
+    margin: 0 auto; 
     background-color: #ffffff;
+    overflow: hidden;
+}
+
+body {
+
 }
 
 .container {
@@ -761,6 +768,7 @@ header {
 .home__content {
     display: flex;
     gap: 16px;
+    overflow: hidden;
 }
 
 .home__left--textarea {
@@ -949,6 +957,7 @@ h1 {
 
 .home__right--area {
     max-width: 658.26px;
+    overflow: hidden;
 }
 
 .right--area--el-1 {
@@ -1001,6 +1010,7 @@ h1 {
     /* top: 536.89px; */
     /* z-index: 3; */
     transform: rotate(-63.92deg);
+    overflow: hidden;
 }
 
 .right--area--heart {
