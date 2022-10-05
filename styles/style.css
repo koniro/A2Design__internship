@@ -1243,8 +1243,9 @@ h1 {
 }
 
 .reviev__part__content {
+    display: flex;
     max-height: 442px;
-    margin: 107px 0 0 0;
+    margin: 107px 0 0 54px;
     padding-top: 113px;
     padding-bottom: 121px;
 }
@@ -1342,5 +1343,135 @@ h1 {
 
 
 .reviev__part--carousel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
 
+.carousel__btns {
+    margin: 24px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.previous__btn {
+    width: 56px;
+    height: 56px;
+    background: #FFD7A0;
+    border-radius: 10px;
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.prev__arr {
+    rotate: 180deg;
+}
+
+.next__btn {
+    width: 56px;
+    height: 56px;
+    background: #FB9333;
+    border-radius: 10px;
+    margin: 0 0 0 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.next__arr {
+
+}
+
+.carousel__card__block {
+    display: flex;
+    margin: 34px 0 0 56px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.carousel__card {
+    
+    width: 269px;
+    height: 402px;
+
+    margin: 44px 0 0 30px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.card__img {
+    margin: -40px 0 0 24px;
+}
+
+.card__header {
+/* Selena Gomz */
+
+    margin: 72px 0 0 24px;
+
+    width: 181px;
+    height: 32px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* #2B2B2B */
+
+    color: #2B2B2B;
+}
+
+.card__p__age {
+    margin: 8px 0 0 24px;
+    width: 155px;
+    height: 21px;
+
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    
+    
+    /* Text/Default in Field */
+    
+    color: #999999;
+    
+}
+
+.card__p__text {
+    margin: 19px 0 0 24px;
+    width: 221px;
+    height: 168px;
+
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    
+    letter-spacing: -0.02em;
+    
+    /* #575757 */
+    
+    color: #575757;
 }
