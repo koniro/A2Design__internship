@@ -1475,3 +1475,122 @@ h1 {
     
     color: #575757;
 }
+
+/* место класса-анимации для карусели */
+
+.food-menu__section {
+
+}
+
+.food-menu__content {
+
+}
+
+.pre-h__parag {
+    margin: 120px 0 0 0;
+    /* width: 450px; */
+    height: 36px;
+
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    /* identical to box height, or 36px */
+    
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    /* #FB9333 */
+    
+    color: #FB9333;
+    
+}
+
+.food-menu__h {
+    margin: 12px 0 0 0;
+    /* width: 732px; */
+    height: 134px;
+
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 140%;
+    /* or 67px */
+    
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    color: #585858;
+}
+
+.food-menu {
+    margin: 72px 0 0 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.food-menu__card {
+    width: 370px;
+    height: 520px;
+    border-radius: 50px;
+    
+
+}
+#cbg1{
+    background-image: url(../src/images/cbg1.png); 
+}
+#cbg2{
+    background-image: url(../src/images/cbg2.png); 
+    margin-left: 27px;
+}
+#cbg3{
+    background-image: url(../src/images/cbg3.png); 
+    margin-left: 27px;
+}
+
+.food__name {
+    
+    width: 260px;
+    height: 33px;
+
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    /* or 31px */
+    padding: 396px 0 0 43px;
+    margin: 0;
+    /* #FFFFFF */
+    
+    color: #FFFFFF;
+}
+
+.food__price {
+
+    width: 150px;
+    height: 45px;
+    margin: 6px 0 0 43px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    /* or 52px */
+    
+    
+    /* #FFFFFF */
+    
+    color: #FFFFFF;
+}
+
+.card__bg {
+
+}
