@@ -1606,7 +1606,7 @@ h1 {
 }
 
 .sub__form--text {
-
+    z-index: 3;
 }
 
 .sub__form--p1 {
@@ -1682,7 +1682,7 @@ h1 {
 
     width: 700px;
     height: 80px;
-
+    z-index: 3;
     
     background: #FFFFFF;
     box-shadow: 0px 8px 20px -30px rgba(151, 109, 0, 0.08);
@@ -1770,4 +1770,178 @@ h1 {
 
 }
 
+.bg__wave {
+    z-index: 1;
+    margin-top: -400px;
+    margin-left: -50px;
+    width: 1300px;
+}
 
+.footer__content {
+    height: 218px;
+    display: flex;
+    margin-top: 160px;
+    padding-bottom: 100px;
+}
+
+.company__info {
+    width: 212px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+.footer__h3 {
+    width: 124px;
+    height: 28px;
+
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: #585858;
+}
+.footer__p1 {
+    width: 212px;
+    height: 78px;
+
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    margin: 19px 0 0 0;
+    
+    /* #575757 */
+    
+    color: #575757;
+}
+.footer__p2 {
+    width: 172px;
+    height: 24px;
+
+    margin: 67px 0 0 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    
+    
+    /* #2B2B2B */
+    
+    color: #2B2B2B;
+}
+
+.footer__menu {
+    margin-left: 91px;
+}
+.footer__h4 {
+
+    height: 22px;
+
+    margin: 0 ;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+    
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.footer__ul__menu {
+    margin: 3px 0 0 0;
+}
+.fm__item {
+
+    height: 24px;
+
+    margin: 24px 0 0 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    
+    
+    /* #575757 */
+    
+    color: #575757;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.contact__info {
+    margin-left: 227px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.contact__item {
+    width: 237px;
+    max-height: 25px;
+    margin: 35px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.contact__p {
+
+    height: 48px;
+
+    margin:0 0 0 16px ;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    
+    
+    /* #575757 */
+    
+    color: #575757;
+}
+.contact__img {
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.media {
+    margin-left: 92px;
+
+}
+.media__icon {
+    margin-left: 32px;
+}
+
+.media__p {
+    margin: 26px 0 0 32px;
+    height: 24px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+
+    /* #575757 */
+
+    color: #575757;
+    }
